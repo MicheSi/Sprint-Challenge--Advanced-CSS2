@@ -205,6 +205,18 @@ footer {
     margin: 1%;
   }
 }
+.home {
+  animation-name: liftoff;
+  animation-duration: 3s;
+}
+@keyframes liftoff {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
 @media (max-width: 500px) {
   .home {
     padding-top: 0;
@@ -299,7 +311,7 @@ footer {
   color: white;
 }
 .home .walk .walk-text .btn .sign-up:hover {
-  background: white;
+  background: #87CEFA;
   color: #22283A;
 }
 @media (max-width: 500px) {
@@ -314,7 +326,7 @@ footer {
     color: white;
   }
   .home .walk .walk-text .btn .sign-up:hover {
-    background: white;
+    background: #87CEFA;
     color: #22283A;
   }
 }

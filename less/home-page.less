@@ -1,6 +1,17 @@
 // Home Content
 
 .home {
+  animation-name: liftoff;
+  animation-duration: 3s;
+
+  @keyframes liftoff {
+    from {
+        margin-top: 100%;
+    }
+    to {
+        margin-top: 0%;
+    }
+  }
 
   @media @phone {
     padding-top: 0;
