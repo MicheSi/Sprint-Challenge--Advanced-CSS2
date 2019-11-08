@@ -311,7 +311,7 @@ footer {
   color: white;
 }
 .home .walk .walk-text .btn .sign-up:hover {
-  background: #87CEFA;
+  background: white;
   color: #22283A;
 }
 @media (max-width: 500px) {
@@ -326,7 +326,7 @@ footer {
     color: white;
   }
   .home .walk .walk-text .btn .sign-up:hover {
-    background: #87CEFA;
+    background: white;
     color: #22283A;
   }
 }
