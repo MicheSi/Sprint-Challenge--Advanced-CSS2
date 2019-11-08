@@ -9,15 +9,25 @@ nav {
     text-align: center;
     padding: 1%;
 
+    @media @phone {
+        padding-bottom:3%;
+        width: 95%;
+    } // end media query
+
     h1 {
         font-size: 3.8rem;
         padding: 2%;
-    }
+    } // end h1 styles
 
     a {
         font-size: 1.6rem;
         text-decoration: none;
         color: black;
         margin: 2%;
-    }
-}
+
+        &:hover {
+            color: @nav-hover;
+        }
+
+    } // end nav a styles
+} // end nav section

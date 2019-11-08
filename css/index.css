@@ -171,6 +171,12 @@ nav {
   text-align: center;
   padding: 1%;
 }
+@media (max-width: 500px) {
+  nav {
+    padding-bottom: 3%;
+    width: 95%;
+  }
+}
 nav h1 {
   font-size: 3.8rem;
   padding: 2%;
@@ -180,6 +186,9 @@ nav a {
   text-decoration: none;
   color: black;
   margin: 2%;
+}
+nav a:hover {
+  color: #87CEFA;
 }
 footer {
   color: #22283B;
@@ -196,6 +205,10 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro .header-img {
+  border-radius: 5px;
+  width: 100%;
 }
 .home .space-images {
   display: flex;
