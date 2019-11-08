@@ -246,6 +246,20 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn .sign-up {
+  display: block;
+  background: #22283A;
+  width: 100px;
+  height: 36px;
+  font-size: 1.8rem;
+  border: 1px solid #22283A;
+  border-radius: 5px;
+  color: white;
+}
+.home .walk .walk-text .btn .sign-up:hover {
+  background: white;
+  color: #22283A;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
