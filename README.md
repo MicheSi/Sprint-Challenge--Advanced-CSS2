@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites adapt themselves to fit into various screen resolutions based on predefined screen sizes (limited to certain screen sizes). Responsive websites use reponsive units so that the viewport adapts to the user's screen size - accomodating all devices/screen sizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means building the website for a mobile screen first and then expanding the layout to a larger screen - building up towards the desktop version. Your media queries would be "min-width" instead of max-width since you are building up in size.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It sets the default font size to 10px so that it's easier to do the math by tenths instead of sixteenths (for normal default font size of 16px) when converting to rems. No crazy math when changing font size as you build your webpage!
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a more refined way to write code with CSS. It uses a Syntax to write the code and a compiler to convert the code into CSS. It allows us to use more functions or features that regular CSS doesn't allow us to. For example with our Less compiler, we're able to  use variables and mixins, which allow us to keep our code DRY.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is being able to create variables and mixins. It prevents me from having to write the same code over and over. Also, with parametric mixins, I'm able to use the same code and change certain properties of individual elements without having to rewrite new code on each specific element.
+
+The aspect that gives me the most trouble is keeping my nesting clean. I have to make sure to make comments so that I know where one section starts and the other ends so that I don't end up with an extra curly brace (or one too little) that will break my code and prevent it from compiling.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

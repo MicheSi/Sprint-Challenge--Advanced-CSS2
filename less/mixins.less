@@ -1,1 +1,22 @@
 // Mixins Here
+.flex (@direction, @wrap) {
+    display: flex;
+    flex-direction: @direction;
+    flex-wrap: @wrap;
+}
+
+.button (@bg-color, @width, @height, @ft-color) {
+    display: block;
+    background: @bg-color;
+    width: @width;
+    height: @height;
+    font-size: 1.8rem;
+    border: 1px solid @bg-color;
+    border-radius: 5px;
+    color: @ft-color;
+
+    &:hover {
+        background: @ft-color;
+        color: @bg-color;
+    }
+}
